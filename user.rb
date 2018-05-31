@@ -10,6 +10,10 @@ class User
     puts 'I am running'
   end
 
+  def self.static_method
+    puts 'This is a static method'
+  end
+
   def to_s
     'Name: ' + name + ' , Email: ' + email
   end
@@ -42,3 +46,9 @@ end
 buyer = Buyer.new('anish', 'test')
 seller = Seller.new('John Doe', 'test mail')
 admin = Admin.new('Jane Doe', 'outlook mail')
+
+anish.run
+buyer.run
+
+puts Buyer.ancestors
+User.static_method
