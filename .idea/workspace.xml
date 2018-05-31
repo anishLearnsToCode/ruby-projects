@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f34bc46-1fc3-43ec-bd7d-ec6658fa9467" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/User Permission JSON Scanner/User Permissions.json" beforeDir="false" afterPath="$PROJECT_DIR$/User Permission JSON Scanner/User Permissions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Permission JSON Scanner/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/User Permission JSON Scanner/user.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/User Permission JSON Scanner/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="34">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User Permissions.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User Permissions.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/User Permission JSON Scanner/User Permissions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -72,8 +72,8 @@
         <option value="$PROJECT_DIR$/user.rb" />
         <option value="$PROJECT_DIR$/modules_mixins.rb" />
         <option value="$PROJECT_DIR$/lion.rb" />
-        <option value="$PROJECT_DIR$/User Permission JSON Scanner/user.rb" />
         <option value="$PROJECT_DIR$/User Permission JSON Scanner/User Permissions.json" />
+        <option value="$PROJECT_DIR$/User Permission JSON Scanner/user.rb" />
       </list>
     </option>
   </component>
@@ -233,12 +233,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527688989914</updated>
       <workItem from="1527688991144" duration="5044000" />
-      <workItem from="1527735954062" duration="16990000" />
+      <workItem from="1527735954062" duration="17564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22034000" />
+    <option name="totallyTimeSpent" value="22608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,17 +436,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User Permission JSON Scanner/user.rb">
+    <entry file="file://$PROJECT_DIR$/User Permission JSON Scanner/User Permissions.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User Permission JSON Scanner/User Permissions.json">
+    <entry file="file://$PROJECT_DIR$/User Permission JSON Scanner/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.0.4, ruby-2.4.3-p205) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pp (v0.1.1, ruby-2.4.3-p205) [gem]" level="application" />
   </component>
 </module>
