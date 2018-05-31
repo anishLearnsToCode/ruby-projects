@@ -30,3 +30,7 @@ end
 
 puts
 names_array.each{|name| puts "Hi #{name}"}
+
+# Select method on arrays
+odd_array = number_array.select{|element| element.odd?}
+p odd_array 
