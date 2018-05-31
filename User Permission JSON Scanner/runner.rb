@@ -1,4 +1,6 @@
 require_relative 'user'
+require 'pp'
 
 anish = User.new('Anish', 'anish_@outlook.com')
-puts anish
+pp anish
+anish.save

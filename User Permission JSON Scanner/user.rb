@@ -1,4 +1,5 @@
 require 'json'
+require 'pp'
 
 class User
   attr_accessor :name, :email, :permissions
@@ -10,8 +11,8 @@ class User
   end
 
   def self.get_permissions_from_file
-    file = File.read 'UserPermissions.json'
-    JSON.load(file, nil, symbolize_names: true)
+    file = File.read('UserPermissions.json')
+    JSON.load(file)
   end
 
   def save
