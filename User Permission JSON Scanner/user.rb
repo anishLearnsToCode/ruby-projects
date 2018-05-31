@@ -10,6 +10,15 @@ class User
   end
 
   def self.get_permissions_from_file
+    file = File.read 'User Permissions.json'
+    JSON.load(file, nil, symbolize_names: true)
+  end
+
+  def save
+    entry = {name: @name, email: @email, permissions: @permissions}.to_json
+    open('users.json', 'a') do |file| # Here the 'a' refers to append mode
+      file.puts entry
+    end
   end
 
   def to_s
