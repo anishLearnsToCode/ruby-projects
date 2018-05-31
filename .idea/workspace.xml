@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f34bc46-1fc3-43ec-bd7d-ec6658fa9467" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/hash_homework.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hash_homework.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +16,7 @@
     <SUITE FILE_PATH="coverage/Ruby_Projects@array_methods.rcov" NAME="array_methods Coverage Results" MODIFIED="1527746719331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@hash_homework.rcov" NAME="hash_homework Coverage Results" MODIFIED="1527751757541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@hash.rcov" NAME="hash Coverage Results" MODIFIED="1527749724219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
+    <SUITE FILE_PATH="coverage/Ruby_Projects@user.rcov" NAME="user Coverage Results" MODIFIED="1527752690707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@playground.rcov" NAME="playground Coverage Results" MODIFIED="1527691942131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@hello_world_method.rcov" NAME="hello_world_method Coverage Results" MODIFIED="1527690385682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
   </component>
@@ -83,11 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hash_homework.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hash_homework.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash_homework.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -98,6 +109,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby File" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -116,6 +128,7 @@
         <option value="$PROJECT_DIR$/array_methods.rb" />
         <option value="$PROJECT_DIR$/hash.rb" />
         <option value="$PROJECT_DIR$/hash_homework.rb" />
+        <option value="$PROJECT_DIR$/user.rb" />
       </list>
     </option>
   </component>
@@ -174,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.hash_homework">
+  <component name="RunManager" selected="Ruby.user">
     <configuration name="array_methods" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Ruby Projects" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -214,19 +227,6 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/hash_homework.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <configuration name="hello_world_method" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="Ruby Projects" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/hello_world_method.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-    </configuration>
     <configuration name="playground" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Ruby Projects" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -240,20 +240,33 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/playground.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
+    <configuration name="user" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Ruby Projects" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/user.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+    </configuration>
     <list>
-      <item itemvalue="Ruby.hello_world_method" />
       <item itemvalue="Ruby.playground" />
       <item itemvalue="Ruby.array_methods" />
       <item itemvalue="Ruby.hash" />
       <item itemvalue="Ruby.hash_homework" />
+      <item itemvalue="Ruby.user" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.user" />
         <item itemvalue="Ruby.hash_homework" />
         <item itemvalue="Ruby.hash" />
         <item itemvalue="Ruby.array_methods" />
         <item itemvalue="Ruby.playground" />
-        <item itemvalue="Ruby.hello_world_method" />
       </list>
     </recent_temporary>
   </component>
@@ -269,12 +282,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527688989914</updated>
       <workItem from="1527688991144" duration="5044000" />
-      <workItem from="1527735954062" duration="11639000" />
+      <workItem from="1527735954062" duration="12599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16683000" />
+    <option name="totallyTimeSpent" value="17643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,6 +300,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32987553" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -426,6 +440,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="532" column="8" selection-start-line="532" selection-start-column="8" selection-end-line="532" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
