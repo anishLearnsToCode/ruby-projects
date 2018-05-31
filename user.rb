@@ -51,4 +51,4 @@ anish.run
 buyer.run
 
 puts Buyer.ancestors
-User.static_method
+User.static_method  
