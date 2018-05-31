@@ -38,3 +38,11 @@ puts symbol_hash[:year_string]
 
 # Iterating over the has using each method
 symbol_hash.each {|key, value| puts key.to_s + ' : ' + value.to_s}
+
+# Creating a new hash that contains only numbers
+number_hash = {} # created an empty hash
+(1..5).each {|number| number_hash["str#{number}"] = number}
+p number_hash
+
+number_hash.each {|key, value| number_hash.delete(key) if value > 3}
+p number_hash
