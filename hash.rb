@@ -46,3 +46,15 @@ p number_hash
 
 number_hash.each {|key, value| number_hash.delete(key) if value > 3}
 p number_hash
+
+# Creating a numbers hash using symbols
+numbers_symbol_hash = {
+    a: 1,
+    b: 2,
+    c: 3,
+    d: 5,
+    e: 10
+}
+p numbers_symbol_hash
+selected_hash = numbers_symbol_hash.select {|key, value| value >= 5}
+p selected_hash
