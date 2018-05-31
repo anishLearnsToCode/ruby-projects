@@ -6,6 +6,10 @@ class User
     self.email = email
   end
 
+  def run
+    puts 'I am running'
+  end
+
   def to_s
     'Name: ' + name + ' , Email: ' + email
   end
@@ -22,3 +26,19 @@ puts gautam.name
 
 puts
 puts User.ancestors
+
+class Buyer < User
+  def run
+    puts 'The buyer is running'
+  end
+end
+
+class Seller < User
+end
+
+class Admin < User
+end
+
+buyer = Buyer.new('anish', 'test')
+seller = Seller.new('John Doe', 'test mail')
+admin = Admin.new('Jane Doe', 'outlook mail')
