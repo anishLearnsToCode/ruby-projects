@@ -31,3 +31,10 @@ puts symbol_hash[:year_string]
 
 symbol_hash[:grades_list] = [8.00, 7.33, 8.33, 8.14]
 p symbol_hash[:grades_list]
+
+# Deleting a <key, value> pair in the hash
+symbol_hash.delete(:year_string)
+puts symbol_hash[:year_string]
+
+# Iterating over the has using each method
+symbol_hash.each {|key, value| puts key.to_s + ' : ' + value.to_s}
