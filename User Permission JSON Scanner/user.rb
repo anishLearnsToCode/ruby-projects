@@ -10,7 +10,7 @@ class User
   end
 
   def self.get_permissions_from_file
-    file = File.read 'User Permissions.json'
+    file = File.read 'UserPermissions.json'
     JSON.load(file, nil, symbolize_names: true)
   end
 
