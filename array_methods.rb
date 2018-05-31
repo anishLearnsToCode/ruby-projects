@@ -21,3 +21,12 @@ for element in number_array
   mod_array.push(element % 4)
 end
 p mod_array
+
+# These are the 2 ways to iterate over string arrays
+names_array = ['anish', 'john', 'gautam', 'aviral']
+names_array.each do |name|
+  puts "hi #{name.capitalize}"
+end
+
+puts
+names_array.each{|name| puts "Hi #{name}"}
