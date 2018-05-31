@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f34bc46-1fc3-43ec-bd7d-ec6658fa9467" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/user.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +15,7 @@
     <SUITE FILE_PATH="coverage/Ruby_Projects@array_methods.rcov" NAME="array_methods Coverage Results" MODIFIED="1527746719331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@hash_homework.rcov" NAME="hash_homework Coverage Results" MODIFIED="1527751757541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@hash.rcov" NAME="hash Coverage Results" MODIFIED="1527749724219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
-    <SUITE FILE_PATH="coverage/Ruby_Projects@user.rcov" NAME="user Coverage Results" MODIFIED="1527752690707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
+    <SUITE FILE_PATH="coverage/Ruby_Projects@user.rcov" NAME="user Coverage Results" MODIFIED="1527753376788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@playground.rcov" NAME="playground Coverage Results" MODIFIED="1527691942131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
     <SUITE FILE_PATH="coverage/Ruby_Projects@hello_world_method.rcov" NAME="hello_world_method Coverage Results" MODIFIED="1527690385682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Projects" />
   </component>
@@ -97,8 +96,8 @@
       <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -282,12 +281,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527688989914</updated>
       <workItem from="1527688991144" duration="5044000" />
-      <workItem from="1527735954062" duration="12599000" />
+      <workItem from="1527735954062" duration="13151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17643000" />
+    <option name="totallyTimeSpent" value="18195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
